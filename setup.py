@@ -10,7 +10,7 @@ setup(
     author="Lerry",
     license='MIT',
     author_email="lvdachao@gmail.com",
-    py_modules=['jsonclient'],
+    packages=['jsonclient'],
     platforms = 'any',
     install_requires = [
        'requests>=2.0',
